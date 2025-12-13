@@ -1,25 +1,25 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import {
-  Book,
-  Bookmark,
-  Sparkles,
-  ChevronDown,
-  Play,
-  Search,
-  Brain,
-  X,
-  Users,
-  Shield,
-  Zap,
-  Download,
-  Menu,
-  Check,
-  Info,
-  Loader2,
-  Mic,
-  User as UserIcon,
-} from 'lucide-react';
+// import {
+//   Book,
+//   Bookmark,
+//   Sparkles,
+//   ChevronDown,
+//   Play,
+//   Search,
+//   Brain,
+//   X,
+//   Users,
+//   Shield,
+//   Zap,
+//   Download,
+//   Menu,
+//   Check,
+//   Info,
+//   Loader2,
+//   Mic,
+//   User as UserIcon,
+// } from 'lucide-react';
 
 import { sendMessageStream, initializeChat, generateIllustrations, translateForTTS, summarizeContent, generateFollowUpQuestions } from './services/geminiService';
 import { MessageBubble } from './components/MessageBubble';
