@@ -1,6 +1,5 @@
 import { SourceText, ToolkitMode, Language, Message } from "../types";
-// api/gemini.ts
-import { GoogleGenerativeAI } from "@google/generative-ai";
+
 
 // Helper to remove control characters but keep punctuation
 const sanitizeInput = (text: string): string => {
