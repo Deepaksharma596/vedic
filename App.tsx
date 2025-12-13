@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { Book, Bookmark, Sparkles, ChevronDown, Play, GitBranch, FileText, Atom, Search, Brain, Library, X, ChevronRight, Users, Shield, Zap, Trash2, Download, Menu, Check, Flower, Microscope, Quote, Info, Loader2, Mic, MicOff, LogOut, User as UserIcon, Lock, Radio, AlertTriangle, ArrowRight, Globe, Scroll, Heart, Clock, Fingerprint, Volume2, Link } from 'lucide-react';
+import { Book, Bookmark, Sparkles, ChevronDown, Play, GitBranch, FileText, Atom, Brain, Library, X, Users, Shield, Zap,  Download, Menu, Check, Flower, Microscope,  Info,  Mic, User as UserIcon,Radio, AlertTriangle, ArrowRight, Globe, Scroll, Heart, Clock, Fingerprint, Volume2, Link } from 'lucide-react';
 import { sendMessageStream, initializeChat, generateIllustrations, translateForTTS, summarizeContent, generateFollowUpQuestions } from './services/geminiService';
 import { MessageBubble } from './components/MessageBubble';
 import { DisclaimerModal } from './components/DisclaimerModal';
